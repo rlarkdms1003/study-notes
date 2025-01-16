@@ -62,3 +62,7 @@ power shell에서 경로를 지정한 다음 현재 프로젝트의 이름과 np
 ![image](https://github.com/user-attachments/assets/7b3c4223-10d3-4602-88cf-dae4bff553c5)
 
 next 버튼을 누른 후 API LEVEL 33 으로 되어있는 것을 설치해 주었다.
+
+![image](https://github.com/user-attachments/assets/5b8b05bb-2571-4166-9dd8-0224f2a5b2c0)
+
+터미널에서 a버튼을 누르면 안드로이드 스튜디오가 실행되어야 하는데 여기서부터 오류가 생김..답이 없다...
