@@ -18,3 +18,26 @@ React와의 주요 차이점은 HTML 및 CSS 마크업을 사용하는 대신 �
 
 먼저 Expo를 이용해서 개발한 이후에 프로젝트에서는 React Native CLI를 이용해서 개발할 예정
 
+React 설치 시 Node.js가 필요한 이유
+리액트 앱은 웹 브라우저에서 실행되는 코드여서 Node.js와 직접적인 연관은 없으나 프로젝트를 개발하는 데 주요 도구들이 Node.js를 사용하기 때문에 필요하다. 이 때 사용하는 개발 도구는 바벨, 모듈화된 코드를 한 파일로 합치고 코드를 수정할 때 마다 웁 브라우저를 리로딩하는 등 여러기능을 지니 웹팩등이 있다.
+
+expo-cli 설치 과정
+![image](https://github.com/user-attachments/assets/3eed54ae-5546-4f40-bf0f-b3317fe7bb2e)
+![image](https://github.com/user-attachments/assets/e42dddd5-2572-42b4-8bd6-bbf6ce7418fa)
+설치 완료 후 VS Code에서 프로젝트 파일을 실행하면 아래와 같이 폴더들이 생성된것을 확인할 수 있다.
+![image](https://github.com/user-attachments/assets/4689849c-cc90-4a2b-8550-1c3909e14425)
+
+Expo로 생성한 리액트 네이티브 앱 구조 살펴보기
+
+![image](https://github.com/user-attachments/assets/8bb35121-79d6-4742-84fe-6684c7ed07b7)
+
+* 바벨이란? 최신 자바스크립트 문법을 지원하지 않는 브라우저들을 위해서 최신 자바스크립트 문법을 구형 브라우저에서도 돌 수 있게 변환 시켜주는 라이브러리
+
+Package.json 파일
+해당 프로젝트에 대한 정보들이 들어있다. 프로젝트 이름, 버전, 필요한 라이브러리와 라이브러리의 버전들이 명시되어있다. 앱을 시작할 때 사용할 스크립트, 앱을 빌드할 때, 테스트할 때 사용할 스크립트등이 명시되어 있다.
+![image](https://github.com/user-attachments/assets/11dcebef-800a-4013-879a-7ce4d4f0419c)
+-> 앱 실행, 빌드, 테스트 등의 스크립트가 명시되어 있다. 프로젝트에서 자주 실행해야 하는 명령얼르 Scripts로 작성해두면 명령어로 실행이 가능한다.
+
+![image](https://github.com/user-attachments/assets/7606d5af-c104-454e-b419-19f5e2a6a13d)
+-> 필요한 라이브러리와 라이브러리의 버전들이 명시되어 있다.
+
