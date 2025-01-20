@@ -10,3 +10,5 @@ App.js - 최상단 컴포넌트 리덕스 Provider로 감싸주는 곳
 ![image](https://github.com/user-attachments/assets/aa743ce3-4f6a-4745-a0ea-a49203cb2234)
 
 rnfes를 입력할 때 react native component가 형성됨
+
+
