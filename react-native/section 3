@@ -2,6 +2,7 @@ Todo 앱 만들기
 
 폴더 및 파일 생성
 
+
 components 폴더 - 여러 페이지에서 사용할 수 있는 컴포넌트들
 screens - MainScreen.js - 페이지들을 위한 폴더 및 파일
 App.js - 최상단 컴포넌트 리덕스 Provider로 감싸주는 곳
@@ -9,4 +10,3 @@ App.js - 최상단 컴포넌트 리덕스 Provider로 감싸주는 곳
 ![image](https://github.com/user-attachments/assets/aa743ce3-4f6a-4745-a0ea-a49203cb2234)
 
 rnfes를 입력할 때 react native component가 형성됨
-
